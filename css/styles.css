@@ -1,0 +1,133 @@
+:root {
+  --color-primary: #272a31;
+  --color-secondary: #ec5242;
+  --color-accent: #d3d3d3;
+}
+
+html {
+  font-size: 62.5;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  /* background-color: var(--color-primary); */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 3.2rem;
+  margin: 0.5rem;
+}
+
+.text-gradient {
+  background: rgb(236, 82, 66);
+  background: linear-gradient(
+    0deg,
+    rgba(236, 82, 66, 1) 15%,
+    rgba(135, 35, 24, 1) 20%,
+    rgba(218, 74, 59, 1) 25%,
+    rgba(236, 82, 66, 1) 40%,
+    rgba(115, 26, 15, 1) 45%,
+    rgba(236, 82, 66, 1) 50%,
+    rgba(236, 82, 66, 1) 65%,
+    rgba(139, 37, 25, 1) 70%,
+    rgba(236, 82, 66, 1) 75%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  width: fit-content;
+}
+
+/* Top Bar */
+
+.top-bar {
+  background-color: var(--color-primary);
+  display: none;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 5rem;
+}
+
+.top-bar__social-media {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.social-media__icon {
+  height: 1.5rem;
+}
+
+.bar__nav {
+  color: var(--color-accent);
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1rem;
+}
+
+.top-bar__link {
+  color: var(--color-accent);
+  font-size: 1rem;
+}
+
+.hero {
+  background-image: url(../images/Hero-bg.webp);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.hero__text {
+  color: var(--color-secondary);
+}
+
+@media screen and (min-width: 768px) {
+  .top-bar {
+    display: flex;
+  }
+}
+
+/* navigation bar */
+
+.hamburger__bar{
+    height: 0.3rem;
+    background-color: var(--color-primary);
+    width: 1.8rem;
+    margin: 0.3rem;
+}
+
+.hamburger{
+    display: block;
+    position: absolute;
+    margin: 1.5rem;
+}
+
+.hamburger.active{
+    right: 0;
+}
+
+.active .bar2{
+    visibility: hidden;
+}
+
+.active .bar1{
+    transform: translateY(.6rem) rotate(45deg);
+}
+
+.active .bar3{
+    transform: translateY(-0.6rem) rotate(-45deg);
+}

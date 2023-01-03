@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
-  /* background-color: var(--color-primary); */
+  background-color: var(--color-primary);
 }
 
 * {
@@ -379,6 +379,26 @@ gap: 1.2rem;
     font-size: 2.2rem;
 }
 
+.partners__box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.4rem;
+}
+
+.partners__name{
+    color: #A4A1A1;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.partners{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 @media screen and (min-width: 768px) {
   .top-bar {
     display: flex;
@@ -461,5 +481,10 @@ gap: 2rem;
 
   .team__box{
     padding: 4rem 13rem;
+  }
+
+  .partners__box{
+    padding: 4rem 15rem;
+
   }
 }

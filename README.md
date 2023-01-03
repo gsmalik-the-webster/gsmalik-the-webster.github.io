@@ -59,7 +59,7 @@ My First Microverse Capstone Project</b></h3>
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://gsmalik030portfolio.github.io/)
+- [Live Demo Link](https://gsmalik-the-webster.github.io/)
 
 
 ### Prerequisites
@@ -72,7 +72,7 @@ I completed all the previous blocks.
 
 Clone this repository to your desired folder:
 
-**Just clone the project by runing the `git clone git@github.com:gsmalik030/the-webster-.git` command in your command line, and you are done.**
+**Just clone the project by runing the `git clone git@github.com:gsmalik-the-webster/gsmalik-the-webster.github.io.git` command in your command line, and you are done.**
 
 
 
@@ -120,6 +120,6 @@ Give a ⭐️ if you like my effort!
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-(https://github.com/gsmalik030Portfolio/gsmalik030Portfolio.github.io/blob/main/LICENSE) 
+(git@github.com:gsmalik-the-webster/gsmalik-the-webster.github.io.git/blob/main/LICENSE) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

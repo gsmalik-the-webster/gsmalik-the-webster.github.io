@@ -165,14 +165,14 @@ h1 {
 }
 
 .highlight {
-  margin-right: 20rem;
+  margin-right: 9rem;
 }
 
 .logo__box {
   display: none;
   align-items: center;
   gap: 1.6rem;
-  margin-left: 20rem;
+  margin-left: 9rem;
 }
 
 .logo {
@@ -399,6 +399,28 @@ gap: 1.2rem;
     flex-wrap: wrap;
     justify-content: center;
 }
+
+/* Footer */
+
+footer .logo__box{
+    display: grid;
+    grid-template-columns:35% 65% ;
+    margin: 0 5rem;
+}
+
+
+.footer {
+    background: white;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .copyright{
+    font-size: 1.6rem;
+    align-self: center;
+    margin-right: 5rem;
+  }
+
 @media screen and (min-width: 768px) {
   .top-bar {
     display: flex;
@@ -485,6 +507,13 @@ gap: 2rem;
 
   .partners__box{
     padding: 4rem 15rem;
-
   }
+
+  footer .logo__box{
+    margin: 0 20rem;
+}
+
+.copyright{
+    margin-right: 20rem;
+}
 }

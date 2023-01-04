@@ -59,7 +59,7 @@ My First Microverse Capstone Project</b></h3>
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://gsmalik030portfolio.github.io/)
+- [Live Demo Link](https://gsmalik-the-webster.github.io/)
 
 
 ### Prerequisites

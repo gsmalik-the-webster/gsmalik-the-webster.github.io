@@ -18,13 +18,12 @@ My First Microverse Capstone Project</b></h3>
 
  # Key Features
 
- > This is first Portfolio website.
- > It shows all my work history.
+ > This is a website for an online web designing company.
 
 
 # 🔭 Future Features
 
- > I will be adding form validation next.
+ > I will be adding Contact Us page.
 
 ## Learning Objectives
 
